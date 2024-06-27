@@ -20,19 +20,21 @@ export default function ItemListFunc(props) {
 
     console.log(totalSum)
 
+
     return (
 
         <ul>
             <TotelPAy to={totalSum} />
             {items.map((item, index) => {
-                const total = (item.Quantity * item.Price).toFixed(2);
+                let total = (item.Quantity * item.Price).toFixed(2);
                 return (
                     <li key={index}>
                         <ChangeQuantity Quantity={() => increaseQuantity(index)} />
-
-                        {item.Quantity} - {item.name} price for each = {item.Price} total = $ {total}
-
-
+                        {total > 0 ? (
+                            `${item.Quantity} - ${item.name} price for each = ${item.Price} total = $ ${total}`
+                        ) : (
+                            `${item.name} price for each = $${item.Price} - Click the add button to add the product to your basket` 
+                        )}
                     </li>
 
                 );
