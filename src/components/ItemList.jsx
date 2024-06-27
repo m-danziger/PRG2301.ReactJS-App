@@ -20,7 +20,6 @@ export default function ItemListFunc(props) {
 
     console.log(totalSum)
 
-
     return (
 
         <ul>
@@ -33,7 +32,7 @@ export default function ItemListFunc(props) {
                         {total > 0 ? (
                             `${item.Quantity} - ${item.name} price for each = ${item.Price} total = $ ${total}`
                         ) : (
-                            `${item.name} price for each = $${item.Price} - Click the add button to add the product to your basket` 
+                            `${item.name} price for each = $${item.Price} Click the add button to add the product to your basket` 
                         )}
                     </li>
 
