@@ -66,3 +66,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+#itam-name{
+  color: #747bff
+}
+
+
+#isp{
+  color:brown
+}
+
+#dp{
+  color:rgb(21, 142, 8);
+}
+
+#bd{
+  border: 5px solid #9c9dad;
+  padding: 7px;
+  display: inline-block;
+  width: 500px;
+
+}
+
