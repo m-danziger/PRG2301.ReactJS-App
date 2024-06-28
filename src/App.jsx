@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import ItemList from './components/ItemList'
-import ItemApp from './components/ItemApp'
+import ItemListFunc from './components/increaseQuantity'
+import Items from './components/Items';
 
-function App() {
+export default function ItemsName() {
+  const item = Items()
+
+  const ItemsArr = [item]
+
   return (
     <>
-      <ItemApp />
-    </>
-  )
-}
+      <ItemListFunc ItemsArr={ItemsArr} />
 
-export default App
+    </>
+  );
+
+}
