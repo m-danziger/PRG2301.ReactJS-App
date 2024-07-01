@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import ItemList from './components/ItemList'
-import ItemApp from './components/ItemApp'
+import './App.css';
+import Fruit from './components/Pruducds/fruitsProductsArr';
+import Frozen from './components/Pruducds/frozenProductsArr';
+import Hygiene from './components/Pruducds/hygieneProductsArr';
+import Frigder from './components/Pruducds/RefrigerationProductsArr';
+import Vegetables from './components/Pruducds/vegetablesProductsArr';
 
-function App() {
+export default function App() {
+
   return (
     <>
-      <ItemApp />
+      <Fruit />
+      <Frozen />
+      <Hygiene />
+      <Frigder />
+      <Vegetables />
     </>
   )
 }
-
-export default App
