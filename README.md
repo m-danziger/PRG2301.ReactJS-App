@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-# React + Vite
+On the REACT page you can see 5 categories of food and basic products
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Click on SHOW to see the department
 
-Currently, two official plugins are available:
+Each product has a price and above there is a calculator that calculates everything together
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# PRG2301.ReactJS-App
-test
->>>>>>> 7451fcdfaaac9c4aab953ca47ce13256d4163659
+Each department is in a separate component
